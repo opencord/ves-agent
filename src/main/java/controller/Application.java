@@ -45,7 +45,7 @@ public class Application {
         kafkaAlarms.start();
         KafkaKpisThread kafkaKpis = new KafkaKpisThread();
         kafkaKpis.start();
-        //SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
