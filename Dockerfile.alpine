@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jre-alpine3.8
 RUN mkdir /opt/ves-agent && chmod 777 -R /opt/ves-agent
 VOLUME /tmp
 ARG JAR_FILE
